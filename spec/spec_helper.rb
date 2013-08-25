@@ -40,8 +40,4 @@ RSpec.configure do |config|
   #     --seed 1234
   config.order = "random"
 
-  #config.before :each do
-  #  Document.index.delete
-  #  Document.create_elasticsearch_index
-  #end
 end
